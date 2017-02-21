@@ -3,11 +3,9 @@ var React = require('react');
 var ListItem = React.createClass({
 	render: function(){
 		return (
-			<ul>
-				<li>
-					<h4>{this.props.ingredient}</h4>
-				</li>
-			</ul>
+				<div>
+					<i>{this.props.id+1}) {this.props.text}</i>
+				</div>
 		);
 	}
 });
